@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: blanchedalmond;
+    font-size: 35px;
+}
+body{
+    /* background-color: black; */
+    background-image: url(images/background-adare-restaurant.jpg);
+    background-size: cover;
+}
+
+.maindiv{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.table1{
+    width: 15%;
+    height: 75vh;
+    background-color: rgba(209, 209, 209, 0.514);
+    text-align: center;
+    border: rgba(255, 0, 0, 0.459) 5px solid;
+    border-radius: 10px;
+    animation: table-1 4s infinite;
+}
+
+@keyframes table-1{
+    0%{
+        border: red 5px solid;
+    }
+
+    25%{
+        border: blue 5px solid;
+    }
+    50%{
+        border: yellow 5px solid;
+    }
+    75%{
+        border: green 5px solid;
+    }
+    /* 100%{
+        border: red 5px solid;
+    } */
+}
+
+
+.table2{
+    
+    width: 15%;
+    height: 75vh;
+    background-color: rgba(209, 209, 209, 0.514);
+    text-align: center;
+    border: rgba(0, 0, 255, 0.5) 5px solid;
+    border-radius: 10px;
+    animation: table-2 4s infinite;
+}
+
+@keyframes table-2{
+    0%{
+        border: blue 5px solid;
+    }
+
+    25%{
+        border: yellow 5px solid;
+    }
+    50%{
+        border: green 5px solid;
+    }
+    75%{
+        border: red 5px solid;
+    }
+    /* 100%{
+        border: blue 5px solid;
+    } */
+}
+
+
+.table3{
+    width: 15%;
+    height: 75vh;
+    background-color: rgba(209, 209, 209, 0.514);
+    text-align: center;
+    border: rgba(255, 255, 0, 0.459) 5px solid;
+    border-radius: 10px;
+    animation: table-3 4s infinite;
+
+}
+
+@keyframes table-3{
+    0%{
+        border: yellow 5px solid;
+    }
+
+    25%{
+        border: green 5px solid;
+    }
+    50%{
+        border: red 5px solid;
+    }
+    75%{
+        border: blue 5px solid;
+    }
+    /* 100%{
+        border: yellow 5px solid;
+    } */
+}
+
+
+.table4{
+    
+    width: 15%;
+    height: 75vh;
+    background-color: rgba(209, 209, 209, 0.514);
+    text-align: center;
+    border: rgba(0, 128, 0, 0.486) 5px solid;
+    border-radius: 10px;
+    animation: table-4 4s infinite;
+
+}
+
+@keyframes table-4{
+    0%{
+        border: green 5px solid;
+    }
+
+    25%{
+        border: red 5px solid;
+    }
+    50%{
+        border: blue 5px solid;
+    }
+    75%{
+        border: yellow 5px solid;
+    }
+    /* 100%{
+        border: green 5px solid;
+    } */
+}
+
+
+
+h5{
+    color: rgb(124, 81, 0);
+    font-size: 40px;
+}
